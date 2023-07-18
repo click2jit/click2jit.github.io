@@ -72,20 +72,22 @@ Accessed this following path and got the reverse shell:
     http://10.10.247.226/templates/protostar/shell.php
 ```
 
-![49cda998af13f2fed7a82607ad479b59.png](../_resources/49cda998af13f2fed7a82607ad479b59.png)
+![49cda998af13f2fed7a82607ad479b59.png](/_resources/49cda998af13f2fed7a82607ad479b59.png)
 
 Next, we searched for any sensitive information files, and we got it inside /var/www/html file:
 
-![d1b0f1d001f481cf9f8136dabffb5c91.png](../_resources/d1b0f1d001f481cf9f8136dabffb5c91.png)
+![d1b0f1d001f481cf9f8136dabffb5c91.png](/_resources/d1b0f1d001f481cf9f8136dabffb5c91.png)
 
 Tried to ssh to root with this password but failed. Then tried to login to other user in the machine.
 And finally succeeded to ssh into jjameson account with that password:
 
-![8866359b5afc47f8611b035ded3070cc.png](../_resources/8866359b5afc47f8611b035ded3070cc.png)
+![8866359b5afc47f8611b035ded3070cc.png](/_resources/8866359b5afc47f8611b035ded3070cc.png)
+
+## Privilege Escalation
 
 Next, we checked sudo -l and we saw that we can run yum binary without password:
 
-![ecec9582e47c3345f96242168a0d530f.png](../_resources/ecec9582e47c3345f96242168a0d530f.png)
+![ecec9582e47c3345f96242168a0d530f.png](/_resources/ecec9582e47c3345f96242168a0d530f.png)
 
 So, we grab the sudo privilege escalation commands from gtfobins:
 
