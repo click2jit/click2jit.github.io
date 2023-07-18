@@ -7,9 +7,9 @@ tags: [joomla, yum]     # TAG names should always be lowercase
 
 Tryhackme Room: https://tryhackme.com/room/dailybugle
 
-## Nmap Scan:
+# Nmap Scan:
 
-![a852286dc41e63dc9928fbaf554c083e.png](../_resources/a852286dc41e63dc9928fbaf554c083e.png)
+![](../_resources/a852286dc41e63dc9928fbaf554c083e.png)
 
 **Open Ports:**
 
