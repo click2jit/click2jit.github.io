@@ -5,7 +5,7 @@ categories: [Injection]
 tags: [joomla, yum]     # TAG names should always be lowercase
 ---
 
-Tryhackme Room: https://tryhackme.com/room/dailybugle
+Tryhackme Room: [https://tryhackme.com/room/dailybugle](https://tryhackme.com/room/dailybugle)
 
 ## Nmap Scan:
 
