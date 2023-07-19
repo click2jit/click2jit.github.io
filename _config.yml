@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn: https://raw.githubusercontent.com/click2jit/click2jit.github.io/main/_posts
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://raw.githubusercontent.com/click2jit/click2jit.github.io/main/_posts/avatar.jpeg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
