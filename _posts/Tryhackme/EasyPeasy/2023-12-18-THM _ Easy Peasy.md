@@ -145,9 +145,11 @@ john --format=gost --wordlist=easypeasy.txt hash3.txt
  
  ![236d137c4d2437cebc01d07fcc85901d.png](/Tryhackme/EasyPeasy/_resources/236d137c4d2437cebc01d07fcc85901d.png)
  
- # Initial Foothold
+
+# Initial Foothold
+
  
- So, after getting the credential to login, we ssh to the machine and got the user flag.
+So, after getting the credential to login, we ssh to the machine and got the user flag.
  
  ```
  ssh boring@10.10.219.20 -p 6498
