@@ -1,6 +1,6 @@
 ---
 title: THM | Easy Peasy
-date: 2023-12-18
+date: 2023-12-18 09:24:00 +0530
 categories: [Nmap and GoBuster]
 tags: [cronjob, John The Ripper] 
 ---
