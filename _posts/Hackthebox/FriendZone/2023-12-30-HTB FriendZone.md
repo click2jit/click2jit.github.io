@@ -89,6 +89,8 @@ We found static page is running, but we can see a domain `friendzoneportal.red`.
 
 ![](/Hackthebox/FriendZone/attachment/145c3d550ef81124d5ccf14072848625.png)
 
+
+
 ### HTTPS
 
 After navigating to HTTPS, we checked the certificate and found another domain `friendzone.red`.
